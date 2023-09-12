@@ -1,9 +1,9 @@
-# Credit-Risk-Classification
-- 
-This notebook uses a logistic regression model tested on both the original and resampled datasets to create a comparative credit risk analysis report.
+# Credit Risk Classification
+
+This project uses a logistic regression model tested on both the original and resampled datasets to create a comparative credit risk analysis report.
 
 # Overview of the Analysis
-- 
+
 This tool uses historical lending data to build a supervised ML model that predicts borrower creditworthiness based on various financial factors. It focuses on classifying loans as "healthy" or "high risk" using a Logistic Regression technique. The target variable is loan_status (0 or 1), and other data are features (X).
 
 The ML process involves model creation, fitting, and utilization. Since healthy loans outnumber risky ones, this presents an imbalanced classification challenge.
@@ -11,14 +11,14 @@ The ML process involves model creation, fitting, and utilization. Since healthy 
 To assess the model, dataset resampling was performed and tested with the initial model for efficiency.
 
 # Results
-- 
--- Machine Learning Model 1 - Logistic Regression:
+
+- Machine Learning Model 1 - Logistic Regression:
 
 Accuracy: 0.9520479254722232
 Precision: 1.0 / 0.85
 Recall scores: 0.99 / 0.91
 
--- Machine Learning Model 2 - Logistic Regression w/ ReSampled Data:
+- Machine Learning Model 2 - Logistic Regression w/ ReSampled Data:
 
 Accuracy: 0.9936781215845847
 Precision: 1.0 / 0.84
