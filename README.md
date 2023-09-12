@@ -12,15 +12,15 @@ To assess the model, dataset resampling was performed and tested with the initia
 
 # Results
 
-- Machine Learning Model 1 - Logistic Regression:\\ 
-    Accuracy: 0.9520479254722232\\ 
-    Precision: 1.0 / 0.85\\ 
-    Recall scores: 0.99 / 0.91\\ 
+- Machine Learning Model 1 - Logistic Regression:  
+    Accuracy: 0.9520479254722232  
+    Precision: 1.0 / 0.85  
+    Recall scores: 0.99 / 0.91  
 
-- Machine Learning Model 2 - Logistic Regression w/ ReSampled Data:\\ 
-    Accuracy: 0.9936781215845847\\ 
-    Precision: 1.0 / 0.84\\ 
-    Recall scores: 0.99 / 0.99\\ 
+- Machine Learning Model 2 - Logistic Regression w/ ReSampled Data:  
+    Accuracy: 0.9936781215845847  
+    Precision: 1.0 / 0.84  
+    Recall scores: 0.99 / 0.99  
 
 # Summary
 Both regression models did well in detecting healthy loans (precision = 1.0) but were less accurate with high-risk loans (0.85 vs. 0.84).
